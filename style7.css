@@ -1,0 +1,86 @@
+@media screen and (max-width:960px)
+{
+
+body{
+    width: 960px;
+    background:url(imgpsh_fullsize.png);
+    background-size: cover;
+    font-family: "Raleway"; 
+    text-align: center;
+}
+.text{
+    padding: 35% 35% 5% 35%;
+}
+
+p{
+    
+    font-family: raleway;
+    font-size: 40px;
+    font-weight: bold;
+    color: black
+    
+}
+
+@media screen and (max-width:768px)
+{
+
+body{
+    width: 768px;
+    background:url(imgpsh_fullsize.png);
+    background-size: cover;
+    font-family: Raleway; 
+    text-align: center;
+}
+.text{
+    padding: 35% 35% 5% 35%;
+}
+
+p{
+    
+    font-family: raleway;
+    font-size: 32px;
+    font-weight: bold;
+    color: black
+    
+}
+}
+@media screen and (max-width:425px)
+{
+body{
+    width: 425px;
+    background:url(imgpsh_fullsize.png);
+    background-size: cover;
+    font-family: Raleway; 
+    text-align: center;
+}
+.text{
+    padding: 35% 35% 35% 35%;
+}
+p{
+    
+    font-family: raleway;
+    font-size: 25px;
+    font-weight: bold;
+    color: black
+}
+}
+@media screen and (max-width:320px)
+{
+body{
+    width: 320px;
+    background:url(imgpsh_fullsize.png);
+    background-size: cover;
+    font-family: Raleway; 
+    text-align: center;
+}
+.text{
+    padding: 35% 35% 35% 35%;
+}
+p{
+   
+    font-family: "raleway";
+    font-size: 20px;
+    font-weight: bold;
+    color: black
+}
+}
