@@ -1,0 +1,433 @@
+@media screen and (max-width:960px)
+{
+body
+{
+	width:960px;
+	
+	margin: 0%;
+	padding: 0;
+	background-color: #7ec2d4;
+	background-size: cover;
+	font-family: "Raleway"; 
+
+}
+
+.login-box
+{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	right: 20%;
+	bottom: 5%;
+	/*transform: translate(-50% -50%);*/
+	border-radius: 10%;
+	
+	box-sizing: border-box;
+	background:url(imgpsh_fullsize.png);
+	padding: 10% 10% ;
+
+}
+.user
+{
+width: 30%;
+height: 30%;
+border-radius: 50%;
+overflow: hidden;
+position: absolute;
+top: -10%;
+left: calc(35%);
+}
+.info
+{
+margin: 0;
+padding: 0 0 15%;
+color:black;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+
+}
+.login-box p
+{
+	margin: 0;
+	padding-bottom: 2%;
+	font-weight: bold;
+	color:black;
+}
+.login-box input
+{
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 3%;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 1%;
+	color: black;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height:40px;
+	color: black;
+	font-size: 16px;
+	background: #7ec2d4;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.account
+{
+color: black;
+font-size: 12px;
+font-weight: bold;
+}
+.reg
+{
+color: rgb(134, 170, 204);
+font-size: 18px;
+
+font-weight: bold;
+}
+.login-box input[value="Login"]
+{
+	font-weight: bold;
+}
+}
+@media screen and (max-width:768px)
+{
+body
+{
+	width:768px;
+	
+	margin: 0%;
+	padding: 0;
+	background-color: #7ec2d4;
+	background-size: cover;
+	font-family: "Raleway"; 
+
+}
+
+.login-box
+{
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	right: 15%;
+	bottom: 10%;
+	/*transform: translate(-50% -50%);*/
+	border-radius: 10%;
+	background:url(imgpsh_fullsize.png);
+	box-sizing: border-box;
+	
+	padding: 10% 10% ;
+
+}
+.user
+{
+width: 25%;
+height: 25%;
+border-radius: 50%;
+overflow: hidden;
+position: absolute;
+top: -10%;
+left: calc(35%);
+}
+.info
+{
+margin: 0;
+padding: 0 0 10%;
+color:black;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+
+}
+.login-box p
+{
+	margin: 0;
+	padding-bottom: 2%;
+	font-weight: bold;
+	color:black;
+}
+.login-box input
+{
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 3%;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 1%;
+	color: black;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height:40px;
+	color: black;
+	font-size: 16px;
+	background: #7ec2d4;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.account
+{
+color: black;
+font-size: 12px;
+font-weight: bold;
+}
+.reg
+{
+color: rgb(134, 170, 204);
+font-size: 18px;
+
+font-weight: bold;
+}
+.login-box input[value="Login"]
+{
+	font-weight: bold;
+}
+}
+
+
+@media screen and (max-width:425px)
+{
+	body
+	{
+		width:425px;
+		
+		margin: 0%;
+		padding: 0%;
+		background-color: #7ec2d4;
+		background-size: cover;
+		font-family: "Raleway"; 
+	
+	}
+
+	.login-box
+{
+	position: absolute;
+	top: 20%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	
+	/*transform: translate(-50% -50%);*/
+	border-radius: 10% 10% 0 0;
+	background:url(imgpsh_fullsize.png);
+	box-sizing: border-box;
+	
+	padding: 12% 10% ;
+
+}
+.user
+{
+width: 25%;
+height: 25%;
+border-radius: 50%;
+overflow: hidden;
+position: absolute;
+top: -10%;
+left: calc(35%);
+}
+.info
+{
+margin: 0;
+padding: 0 0 10%;
+color:black;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+
+}
+.login-box p
+{
+	margin: 0;
+	padding-bottom: 2%;
+	font-weight: bold;
+	color:black;
+}
+.login-box input
+{
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 3%;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 1%;
+	color: black;
+	font-size: 12px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height:40px;
+	color: black;
+	font-size: 16px;
+	background: #7ec2d4;
+	cursor: pointer;
+	border-radius: 14px;
+}
+.account
+{
+color: black;
+font-size: 12px;
+font-weight: bold;
+}
+.reg
+{
+color: rgb(134, 170, 204);
+font-size: 14px;
+
+font-weight: bold;
+}
+.login-box input[value="Login"]
+{
+	font-weight: bold;
+}
+}
+	
+
+
+@media screen and (max-width:320px)
+{
+	body
+	{
+		width:320px;
+		
+		margin: 0%;
+		padding: 20% 0 0 0 ;
+		background-color: #7ec2d4;
+		background-size: cover;
+		font-family: "Raleway"; 
+	
+	}
+
+	.login-box
+{
+	position: relative;
+	top: 20%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	
+	/*transform: translate(-50% -50%);*/
+	border-radius: 10% 10% 0 0 ;
+	background:url(imgpsh_fullsize.png);
+	box-sizing: border-box;
+	
+	padding: 10% 10% ;
+
+}
+.user
+{
+width: 20%;
+height: 20%;
+border-radius: 50%;
+overflow: hidden;
+position: absolute;
+top: -10%;
+left: calc(35%);
+}
+	
+.info
+{
+margin: 0;
+padding: 0 0 10%;
+color:black;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+
+}
+.login-box p
+{
+	margin: 0;
+	padding-bottom: 2%;
+	font-weight: bold;
+	color:black;
+}
+.login-box input
+{
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 3%;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 1%;
+	color: black;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+.login-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height:40px;
+	color: black;
+	font-size: 16px;
+	background: #7ec2d4;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.account
+{
+color: black;
+font-size: 12px;
+font-weight: bold;
+}
+.reg
+{
+color: rgb(134, 170, 204);
+font-size: 18px;
+
+font-weight: bold;
+}
+.login-box input[value="Login"]
+{
+	font-weight: bold;
+}
+}
+
