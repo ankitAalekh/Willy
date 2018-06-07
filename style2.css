@@ -1,0 +1,427 @@
+@media screen and (max-width:960px)
+{
+body
+{
+	width:100%;
+	
+	margin: 0%;
+	padding: 0;
+	background-color: #7ec2d4;
+	background-size: cover;
+	font-family: "Raleway"; 
+
+}
+
+.logo
+{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	right: 20%;
+	bottom: 5%;
+	
+	border-radius: 10%;
+	
+	box-sizing: border-box;
+	background:url(imgpsh_fullsize.png);
+	padding: 5% 5% 5%;
+
+}
+.user
+{
+width: 30%;
+height: 30%;
+border-radius: 50%;
+
+overflow: hidden;
+position: absolute;
+top: -10%;
+left: calc(35%);
+}
+.info
+{
+margin: 0;
+padding:  20% 5% 5%;
+color:black;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+
+}
+.logo input
+{
+	width: 80%;
+	margin-bottom: 20px;
+	padding-bottom: 3%;
+}
+.logo input[type="submit"]
+{
+    margin-left: 10%;
+    padding: 3% 5% 8% 5%;
+    background-color: #7ec2d4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    height:40px;
+    border: none;
+	outline: none;
+}
+.sub-btn{
+    padding-bottom: 10%;
+}
+
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+p{
+    margin-left: 5%;
+    font-size: 30%;
+    text-emphasis-color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 10% 5% 5%;
+}
+.footer{
+    margin: 10%;
+    padding-bottom: 5%;
+    position: absolute;
+	top: 45%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+   
+}
+.user1{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    }
+}
+@media screen and (max-width:768px)
+{
+
+    body
+{
+	width:100%;
+	
+	margin: 0%;
+	padding: 0;
+	background-color: #7ec2d4;
+	background-size: cover;
+	font-family: "Raleway"; 
+
+}
+
+.logo
+{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	right: 20%;
+	bottom: 5%;
+	
+	border-radius: 10%;
+	
+	box-sizing: border-box;
+	background:url(imgpsh_fullsize.png);
+	padding: 5% 5% 5%;
+
+}
+.user
+{
+width: 28%;
+height: 28%;
+border-radius: 50%;
+
+overflow: hidden;
+position: absolute;
+top: -10%;
+left: calc(35%);
+}
+.info
+{
+margin: 0;
+padding:  15% 5% 5%;
+color:black;
+text-align: center;
+font-size: 100%;
+font-weight: bold;
+
+}
+.logo input
+{
+	width: 80%;
+    margin-bottom: 20px;
+    padding-left: 3%;
+	padding-bottom: 3%;
+}
+.logo input[type="submit"]
+{
+    margin-left: 10%;
+    padding: 3% 5% 8% 5%;
+    background-color: #7ec2d4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius: 18px;
+    height:36px;
+    border: none;
+	outline: none;
+}
+.sub-btn{
+    padding-bottom: 10%;
+}
+
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+p{
+    margin-left: 5%;
+    font-size: 30%;
+    text-emphasis-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10% 5% 5%;
+}
+.footer{
+    margin: 10%;
+    padding-bottom: 5%;
+    position: absolute;
+	top: 45%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+   
+}
+.user1{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: calc(35%);
+    }
+}
+@media screen and (max-width:425px)
+{
+body
+{
+	width:100%;
+	
+	margin: 0%;
+	padding: 0;
+	background-color: #7ec2d4;
+	background-size: cover;
+	font-family: "Raleway"; 
+
+}
+
+.logo
+{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	right: 20%;
+	bottom: 5%;
+	
+	border-radius: 10%;
+	
+	box-sizing: border-box;
+	background:url(imgpsh_fullsize.png);
+	padding: 5% 5% 5%;
+
+}
+.user
+{
+width: 25%;
+height: 25%;
+border-radius: 50%;
+
+overflow: hidden;
+position: absolute;
+top: -10%;
+left: 35%;
+}
+.info
+{
+margin: 0;
+padding:  25% 5% 5%;
+color:black;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+
+}
+.logo input
+{
+	width: 90%;
+    margin-bottom: 14px;
+    padding-left: 3%;
+	padding-bottom: 3%;
+}
+.logo input[type="submit"]
+{
+    margin-left: 10%;
+    padding: 3% 5% 8% 5%;
+    background-color: #7ec2d4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+    height:24px;
+    border: none;
+	outline: none;
+}
+.sub-btn{
+    padding-bottom: 10%;
+}
+
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+p{
+    margin-left: 5%;
+    font-size: 30%;
+    text-emphasis-color: black;
+    text-align: center;
+    font-size: 10px;
+    padding: 10% 5% 5%;
+}
+.footer{
+    margin: 10%;
+    padding-bottom: 5%;
+    position: absolute;
+	top: 45%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+   
+}
+.user1{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    }
+}
+@media screen and (max-width:320px)
+{
+body
+{
+	width:100%;
+	
+	margin: 0%;
+	padding: 0;
+	background-color: #7ec2d4;
+	background-size: cover;
+	font-family: "Raleway"; 
+
+}
+
+.logo
+{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	right: 20%;
+	bottom: 5%;
+	
+	border-radius: 10%;
+	
+	box-sizing: border-box;
+	background:url(imgpsh_fullsize.png);
+	padding: 5% 5% 5%;
+
+}
+.user
+{
+width: 25%;
+height: 25%;
+border-radius: 50%;
+
+overflow: hidden;
+position: absolute;
+top: -10%;
+left: 35%;
+}
+.info
+{
+margin: 0;
+padding:  25% 5% 5%;
+color:black;
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+
+}
+.logo input
+{
+	width: 90%;
+	margin-bottom: 10px;
+	padding-bottom: 3%;
+}
+.logo input[type="submit"]
+{
+    margin-left: 10%;
+    padding: 3% 5% 8% 5%;
+    background-color: #7ec2d4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    height:24px;
+    border: none;
+	outline: none;
+}
+.sub-btn{
+    padding-bottom: 10%;
+}
+
+::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+p{
+    margin-left: 5%;
+    font-size: 30%;
+    text-emphasis-color: black;
+    text-align: center;
+    font-size: 8px;
+    padding: 10% 5% 5%;
+}
+.footer{
+    margin: 10%;
+    padding-bottom: 5%;
+    position: absolute;
+	top: 45%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+   
+}
+.user1{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    }
+}
